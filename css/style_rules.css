@@ -1,0 +1,63 @@
+@import url(reset.css);
+body {
+	background-image:url(../images/bg_main.jpg);
+	min-width:1400px;
+}
+#main {
+	overflow:hidden;
+}
+#rules {
+	width:581px;
+	height:386px;
+	background-image:url(../images/wood_bg.png);
+	background-repeat:no-repeat;
+	color:#fff;
+	padding:16px 0 0 23px;
+	font-size:24px;
+	line-height:50px;
+	margin-left:70px;
+	margin-top:70px;
+	margin:right:70 px;
+	float:left;
+}
+table {
+	width: 610px;
+	border: 3px solid #000;
+	border-collapse:collapse;
+	text-align: center;
+	float:right;
+	margin-right:70px;
+	margin-top:70px;
+}
+td , th {
+	border: 3px solid #000;
+	height: 90px;
+	background-color:#fdf9ef;
+	font-size:37px;
+	padding-top:24px;
+}
+#reason {
+	float:left;
+	width:528px;
+	margin-left:70px;
+	border:3px solid #ff0000;
+	height:50px;
+	padding:30px 0 0 46px;
+	margin-top:56px;
+	font-size:17px;
+	background-color:#ffe8e8;
+}
+#footer {
+	background-color:#630101;
+	padding:10px 0 0 10px;
+	overflow:hidden;
+	margin-top:70px;
+}
+.logo_footer  {
+	float:left;
+	margin-bottom:10px;
+}
+#copy {
+	margin-left:622px;
+	margin-top:139px;
+}

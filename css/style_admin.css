@@ -1,0 +1,71 @@
+table {
+	width: 750px;
+	border: 3px solid #000;
+	border-collapse:collapse;
+	text-align: center;
+	margin:20px auto;
+}
+td , th {
+	border: 3px solid #000;
+	height: 30px;
+}
+th {
+	background-color: #F0F0F0;	
+}
+#no {
+	background-color:#F08080;
+}
+#yes {
+	background-color: #90EE90;
+}
+body {
+	background-image:url(../images/bg_admin.png);
+	min-width:1400px;
+	padding-bottom:0;
+}
+table p {
+	margin:50px 40%;
+	font-size:20px;
+	text-transform:uppercase;	
+}
+#title {
+	margin:10px 32%;
+}
+.logo {
+	padding-left:181px;
+}
+h1 {
+	color:#fff;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+}
+#lider {
+	margin:50px 48.4%;
+	text-align:center;
+	color:#fff;
+	line-height:7px;
+}
+#vite_1 {
+	text-align:center;
+	color:#fff;
+	line-height:7px;
+	float:left;
+	margin-left:450px;
+}
+#vite_2 {
+	text-align:center;
+	color:#fff;
+	line-height:7px;
+	float:right;
+	margin-right:450px;
+}
+#clear {
+	clear:both;
+}
+#footer {
+	margin-top:10px;
+	margin-bottom:0px;
+	text-align:center;
+}

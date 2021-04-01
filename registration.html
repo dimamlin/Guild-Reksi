@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Регистрация</title>
+		<link href="css/style_reg.css" type="text/css" rel="stylesheet"/>
+		<script type="text/javascript">
+			function valid (form) {
+				var login = form.login.value;
+				var fail= false;
+				if (login == "" || login == " ")
+				fail = "You didn*t write your name!";
+				
+				if (fail) 
+				alert(fail);
+		</script>
+	</head>
+	<body>
+		<h1>Регистрация</h1>
+		<h2>Логин и пароль нужно вводить 1 раз, для загрузки статистики аккаунта</h2>
+		<p><label for="1">Login<label></p>
+		<form action="" method="post" name="reg" id="form">
+		<input type="text" name="login" id="1"/>
+		<p><label for="2">Password</label></p>
+		<input type="password" name="password" id="2"/>
+		<p><label for="3">Nickname</label></p>
+		<input type="text" name="nickname" id="3"/>
+		<p title="Ваши данные кодируются"><label><input type="checkbox" name="save" value="save"/>Безопасный вход</label></p>
+		<p><label for="4">1. Оцените Гильдию РЭКСЫ?</label></p>
+		<br><label><input type="radio" name="task" value="good" id="4" checked="checked"/> Хорошая<label></br>
+		<br><label><input type="radio" name="task" value="bad"/> Плохая</label></br>
+		<br><label><input type="radio" name="task" value="newplayer"/> Не могу  сказать</label></br>
+		<p>2. Почему вы выбрали Гильдию РЭКСЫ?<em> (не обязательно)</em></p>
+		<br><label><input type="checkbox" name="cause[]" value="sosiety"/> Общительная гильдия</label></br>
+		<br><label><input type="checkbox" name="cause[]" value="strong"/> Сильная гильдия</label></br>
+		<br><label><input type="checkbox" name="cause[]" value="fun"/> Веселая гильдия</label></br>
+		<br><label><input type="checkbox" name="cause[]" value="weak"/>В другие гильдии не взяли</label></br>
+		<p><label for="5">3. Комментарии/пожелания гильдии<em> (не обязательно)<label></em></p>
+		<textarea rows="4" cols="30" id="5">У вас отличная гильдия!!!</textarea>
+		<p><input type="button" name="submit" value="Send information" onclick="js/warring.js"/></p>
+		<input type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Ready" />
+		</form>
+		</div>
+	</body>
+</html>
